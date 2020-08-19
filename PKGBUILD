@@ -3,7 +3,7 @@
 
 # Maintainer: Teodor Dahl Knutsen <teodor@dahlknutsen.no>
 pkgname='st-git' # '-bzr', '-git', '-hg' or '-svn'
-pkgver=0.8.3
+pkgver=r1133.3991e5a
 pkgrel=1
 pkgdesc="A simple X terminal."
 arch=('x86_64')
@@ -15,7 +15,7 @@ makedepends=('git') # 'bzr', 'git', 'mercurial' or 'subversion'
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
 install=
-source=('dwm::git://github.com/teo8192/st.git')
+source=('st::git://github.com/teo8192/st.git')
 # source=('FOLDER::VCS+URL#FRAGMENT')
 noextract=()
 md5sums=('SKIP')
